@@ -5,7 +5,7 @@ function dumpServiceNotes (projectId, noteRegex, iplist) {
   //   dumpServiceNotes('^SSL Self-Signed', '')
   //   dumpServiceNotes('Software Enumeration', '192.168.1.1')
   //
-  // Usage: mongo localhost:27017/lair --eval "load('./dump_service_notes.js'); dumpServiceNotes('^SSL Self-Signed', '')"
+  // Usage: mongo localhost:27017/lair --eval "load('./dump_service_notes.js'); dumpServiceNotes('cvxgsaKNC5cfLoeNn', ^SSL Self-Signed', '')"
   //
   // Created by: Matt Burch
   //
